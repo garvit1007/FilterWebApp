@@ -1,0 +1,62 @@
+h3 {
+    font-size: 25px !important;
+    width: 50%;
+}
+.btn-success:hover {
+    background-color: red;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
+#boy_btn{
+    margin-right: 20px;
+    width: 200px;
+    font-size: 25px !important;
+    border-radius: 20px;
+}
+#girl_btn{
+    width: 200px;
+    font-size: 25px !important;
+    border-radius: 20px;
+}
+label{
+    font-size: 20px;
+}
+#boy_snap{
+    width: 200px;
+    font-size: 25px !important;
+    border-radius: 20px;
+}
+#girl_snap{
+    width: 200px;
+    font-size: 25px !important;
+    border-radius: 20px;
+}
+#boy_home{
+    background-color: #000000;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 25px !important;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    border-radius: 20px;
+}
+#girl_home{
+    background-color: #000000;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 25px !important;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    border-radius: 20px;
+}
